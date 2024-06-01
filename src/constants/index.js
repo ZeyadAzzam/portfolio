@@ -25,7 +25,7 @@ import {
   nestjs,
   springboot,
   blulogix,
-  wtm
+  wtm,
 } from "../assets";
 
 export const navLinks = [
@@ -113,9 +113,9 @@ const technologies = [
     icon: nestjs,
   },
   {
-  name: "Spring Boot",
-  icon: springboot
-  }
+    name: "Spring Boot",
+    icon: springboot,
+  },
 ];
 
 const experiences = [
@@ -128,39 +128,26 @@ const experiences = [
     points: [
       "Developing and maintaining web applications using Angular and Springboot and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility."
-        ],
-  },
-  {
-    title: "Full Stack Developer",
-    company_name: "InternShip: We.The.Makers",
-    icon: wtm,
-    iconBg: "#332c6b",
-    date: "Nov 2023 - Feb 2023",
-    points: [
-      "Developing and maintaining web applications using React.js,NestJs,React Native Also frameworks for styles such as: tailwind css and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    "title": "Back-End Developer",
-    "company_name": "We.The.Makers",
-    "icon": wtm,
-    "iconBg": "#332c6b",
-    "date": "Feb 2024 - Current",
-    "points": [
-        "Designing, developing, and maintaining robust back-end solutions for web applications using Nestjs, PostgreSQL, Prisma, and RefineJS.",
-        "Collaborating closely with cross-functional teams, including designers, product managers, and fellow developers, to ensure the successful delivery of high-quality products.",
-        "Implementing responsive design principles and ensuring cross-browser compatibility to enhance the user experience.",
-        "Participating actively in code reviews, offering constructive feedback, and contributing to the continuous improvement of development processes.",
-        "Utilizing Nestjs, Prisma, and RefineJS to optimize database interactions, enhance performance, and ensure scalability of web applications.",
-        "Integrating authentication and authorization mechanisms to enhance the security of the back-end systems.",
-        "Troubleshooting and debugging issues, ensuring timely resolution to maintain optimal application performance.",
-    ]
-}
- 
+    title: "Full Stack Developer",
+    company_name: "We.The.Makers",
+    icon: wtm,
+    iconBg: "#332c6b",
+    date: "Nov 2023 - Current",
+    points: [
+      "Developing and maintaining web applications using React.js, NestJs, React Native, and frameworks for styles such as Tailwind CSS.",
+      "Designing, developing, and maintaining robust back-end solutions for web applications using Nestjs, PostgreSQL, Prisma, and RefineJS.",
+      "Collaborating closely with cross-functional teams, including designers, product managers, and fellow developers, to ensure the successful delivery of high-quality products.",
+      "Implementing responsive design principles and ensuring cross-browser compatibility to enhance the user experience.",
+      "Participating actively in code reviews, offering constructive feedback, and contributing to the continuous improvement of development processes.",
+      "Utilizing Nestjs, Prisma, and RefineJS to optimize database interactions, enhance performance, and ensure scalability of web applications.",
+      "Integrating authentication and authorization mechanisms to enhance the security of the back-end systems.",
+      "Troubleshooting and debugging issues, ensuring timely resolution to maintain optimal application performance.",
+    ],
+  },
 ];
 
 const testimonials = [
