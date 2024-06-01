@@ -145,5 +145,6 @@ const Contact = () => {
     </div>
   );
 };
+// todo : test later
 
 export default SectionWrapper(Contact, "contact");
